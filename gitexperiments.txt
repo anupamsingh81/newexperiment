@@ -6,10 +6,11 @@
 # curl -u 'anupamsingh81' https://api.github.com/user/repos -d '{"name":"newexperiment"}'
 # Remember replace USER with your username and REPO with your repository/application name!
 git remote add origin git@github.com:anupamsingh81/newexperiment.git
-git push origin master
+git push -u  origin master
 
 #$ git create -d "My new thing"
 #→  (creates a new project on GitHub with the name of current directory)
-# $ git push origin master
+# $ git push -u origin master
 #HI
-# ? what is difference between git and git -u origin
+# ? what is difference between git and git -u origin master always prefer git push-u origin master
+# Also credential helper cache alwayss add at first install for 1 million seconds
