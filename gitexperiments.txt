@@ -1,0 +1,6 @@
+#  create a repo for a new project
+#$ git init
+#$ git add . && git commit -m "It begins."
+#$ git create -d "My new thing"
+#→  (creates a new project on GitHub with the name of current directory)
+# $ git push origin master
