@@ -11,5 +11,5 @@ git push origin master
 #$ git create -d "My new thing"
 #→  (creates a new project on GitHub with the name of current directory)
 # $ git push origin master
-
+#HI
 # ? what is difference between git and git -u origin
