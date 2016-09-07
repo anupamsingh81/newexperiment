@@ -1,4 +1,27 @@
-#  create a repo for a new project
+
+# first things to do after git install
+
+# sudo apt-get install git
+# set up git
+#https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04
+
+
+
+
+
+   # git config --global user.name "Your Name"
+   # git config --global user.email "youremail@domain.com"
+   
+   
+   # Add git credential helper
+   
+   
+# git config --global credential.helper 'cache --timeout=36000000000'
+# Set the cache to timeout after  1000 hour (setting is in seconds)
+
+
+#  create a repo for a new project already existing in your computer
+
 #$ git init
 #$ git add . && git commit -m "It begins."
 
