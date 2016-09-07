@@ -1,6 +1,13 @@
 #  create a repo for a new project
 #$ git init
 #$ git add . && git commit -m "It begins."
+
+# create remote git hub repository
+# curl -u 'anupamsingh81' https://api.github.com/user/repos -d '{"name":"newexperiment"}'
+# Remember replace USER with your username and REPO with your repository/application name!
+git remote add origin git@github.com:anupamsingh81/newexperiment.git
+git push origin master
+
 #$ git create -d "My new thing"
 #→  (creates a new project on GitHub with the name of current directory)
 # $ git push origin master
