@@ -25,8 +25,20 @@
 #$ git init
 #$ git add . && git commit -m "It begins."
 
+# if folders in root enter this
+git add -A && git commit -m "It begins."
+
+
+
+
 # create remote git hub repository
 # curl -u 'anupamsingh81' https://api.github.com/user/repos -d '{"name":"newexperiment"}'
+# sometimes if problem with password by cURL install certificatees and try again sudo apt-get install ca-certificates
+make directory of certificates if none
+sudo mkdir -p /etc/pki/tls/certs
+copy certificates
+sudo cp /etc/ssl/certs/ca-certificates.crt /etc/pki/tls/certs/ca-bundle.crt
+
 # Remember replace USER with your username and REPO with your repository/application name!
 git remote add origin git@github.com:anupamsingh81/newexperiment.git
 
